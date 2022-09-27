@@ -1,0 +1,222 @@
+:root {
+    --gen-text-color: #757575;
+    --accent-text-color: #2196F3; 
+    --title-text-color: #212121;
+    --white-text-color: #FFFFFF;
+
+    --backgr-dark-color: #2F303A;
+    --backgr-grey-color: #F5F4FA;
+
+}
+
+.page {
+background-color: var(--white-text-color); 
+color: var(--gen-text-color);
+
+font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.header {
+    background-color: #FFFFFF;
+}
+.logo {
+    color: var(--accent-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.logo > .accent{
+    color: var(--title-text-color);
+}
+/* site nav*/
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
+
+/*contact nav*/
+.contact-nav .nav-link {
+    color: var(--gen-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contact-nav .nav-link:hover,
+.contact-nav .nav-link:focus {
+    color: var(--accent-text-color)
+}
+
+
+/* hero */
+.hero-title {
+    color: var(--white-text-color);
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+/*buttons*/
+.button {
+   
+} 
+
+.button-main {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+    cursor: pointer;
+    font-family: inherit;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.button-secondary {
+    color: var(--title-text-color);
+    background-color: var(--backgr-grey-color);
+    cursor: pointer;
+    font-family: inherit;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.button-secondary:hover,
+.button-secondary:focus,
+.button-secondary:active {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+    cursor: pointer;
+}
+
+/*values section*/
+
+.values-heading {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.values-info {
+    color: var(--gen-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* images section */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*team section*/
+.section-heading {
+    color: var(--title-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-info {
+    color: var(--gen-text-color);
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+.results-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.results-info {
+    color: var(--gen-text-color);
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+/*footer*/
+
+.address {
+    color: var(--white-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+
+.footer-link {
+    color: #FFFFFF99;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: #2196F399;
+}
+.footer {
+    background-color: #2F303A;
+}
+
+.logofooter {
+    color: var(--accent-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.logofooter > .accent{
+    color: var(--white-text-color);
