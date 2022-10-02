@@ -12,17 +12,19 @@
 .page {
 background-color: var(--white-text-color); 
 color: var(--gen-text-color);
-
 font-family: Roboto, sans-serif;
 }
 
+/*=============================СБРОС СТИЛЕЙ=============================*/
 .list {
     list-style: none;
 }
 
+/*=============================HEADER==================================*/
 .header {
-    background-color: #FFFFFF;
+    background-color: var(--white-text-color);
 }
+
 .logo {
     color: var(--accent-text-color);
     font-family: Raleway, sans-serif;
@@ -32,10 +34,11 @@ font-family: Roboto, sans-serif;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
+
 .logo > .accent{
     color: var(--title-text-color);
 }
-/* site nav*/
+/*=============================SITE NAV================================*/
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
@@ -53,7 +56,7 @@ font-family: Roboto, sans-serif;
     color: var(--accent-text-color);
 }
 
-/*contact nav*/
+/*=============================CONTACT NAV=============================*/
 .contact-nav .nav-link {
     color: var(--gen-text-color);
     font-weight: 500;
@@ -69,7 +72,7 @@ font-family: Roboto, sans-serif;
 }
 
 
-/* hero */
+/*=============================HERO=============================*/
 .hero-title {
     color: var(--white-text-color);
 
@@ -85,8 +88,10 @@ text-transform: uppercase;
     background-color: #2F303A;
 }
 
-/*buttons*/
+/*=============================BUTTONS=============================*/
 .button {
+   display: inline-block;
+   border-radius: 4px;
    
 } 
 
@@ -122,7 +127,7 @@ text-transform: uppercase;
     cursor: pointer;
 }
 
-/*values section*/
+/*=============================VALUES SECTION=============================*/
 
 .values-heading {
     color: var(--title-text-color);
@@ -150,7 +155,7 @@ text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 
-/*team section*/
+/*=============================TEAM SECTION============================*/
 .section-heading {
     color: var(--title-text-color);
     font-size: 16px;
@@ -182,7 +187,7 @@ text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 
-/*footer*/
+/*=============================FOOTER=====================================*/
 
 .address {
     color: var(--white-text-color);
