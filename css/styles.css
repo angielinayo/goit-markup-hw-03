@@ -18,8 +18,31 @@ font-family: Roboto, sans-serif;
 /*=============================СБРОС СТИЛЕЙ=============================*/
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/*=============================CONTAINER==================================*/
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
 /*=============================HEADER==================================*/
 .header {
     background-color: var(--white-text-color);
@@ -73,55 +96,73 @@ font-family: Roboto, sans-serif;
 
 
 /*=============================HERO=============================*/
-.hero-title {
-    color: var(--white-text-color);
-
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-}
-
 .hero {
     background-color: #2F303A;
+    text-align: center;
 }
+
+.hero-title {
+    color: var(--white-text-color);
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    
+    text-transform: uppercase;
+}
+
+
 
 /*=============================BUTTONS=============================*/
 .button {
-   display: inline-block;
-   border-radius: 4px;
-   
-} 
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
 
-.button-main {
+}
+
+.button.main {
+    padding: 10px 32px;
+    min-width: 216px;
+
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
-    cursor: pointer;
-    font-family: inherit;
 
-    font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.06em;
 }
 
-.button-secondary {
+.button.main:hover,
+.button.main:focus,
+.button.main:active {
+    color: var(--white-text-color);
+    background-color: #188CE8;
+    cursor: pointer;
+}
+
+.button.secondary {
+    padding: 6px 25px;
+    min-width: 73px;
+
     color: var(--title-text-color);
     background-color: var(--backgr-grey-color);
-    cursor: pointer;
-    font-family: inherit;
 
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
 }
 
-.button-secondary:hover,
-.button-secondary:focus,
-.button-secondary:active {
+.button.secondary:hover,
+.button.secondary:focus,
+.button.secondary:active {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
     cursor: pointer;
