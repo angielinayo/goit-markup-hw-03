@@ -38,6 +38,7 @@ img {
 
 .list {
     list-style: none;
+    text-decoration: none;
     padding: 0;
     margin: 0;
 
@@ -302,6 +303,28 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/*===========================PORTFOLIO=====================================*/
+
+.filter.list {
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 50px;
+}
+
+.portfolio.list {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio.card {
+    width: 370px;
+    height: 404px;
+}
+
 .results-title {
     color: var(--title-text-color);
     margin-bottom: 4px;
@@ -309,18 +332,16 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
 }
 
 .results-info {
     color: var(--gen-text-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
-    text-decoration: none;
 }
-/*=============================PORTFOLIO=====================================*/
 
 .borders {
+
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
@@ -331,26 +352,6 @@ img {
     
 }
 
-.filter.list {
-    justify-content: center;
-    gap: 8px;
-}
-
-.portfolio.list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-}
-
-.portfolio.card {
-    width: 370px;
-    height: 404px;
-
-}
 /*=============================FOOTER=====================================*/
 .footer {
     background-color: #2F303A;
