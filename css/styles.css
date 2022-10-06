@@ -356,6 +356,21 @@ img {
     padding-bottom: 60px;
 }
 
+.logofooter {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--accent-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.logofooter > .accent{
+    color: var(--white-text-color);
+}
+
 .address {
     color: var(--white-text-color);
     margin-bottom: 9px;
@@ -373,10 +388,12 @@ img {
     text-decoration: none;
     letter-spacing: 0.03em;
 }
-
 .footer-link:hover,
 .footer-link:focus {
     color: #2196F399;
+}
+.footer-link:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .footer-nav {
@@ -385,21 +402,3 @@ img {
     list-style: none;
 }
 
-.footer.link:not(:last-child) {
-    margin-bottom: 9px;
-}
-
-.logofooter {
-    display: block;
-    margin-bottom: 20px;
-    color: var(--accent-text-color);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-}
-.logofooter > .accent{
-    color: var(--white-text-color);
-}
