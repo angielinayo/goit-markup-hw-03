@@ -77,20 +77,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 }
-
-.container.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
-}
 /*=============================HEADER==================================*/
-.nav-align {
-    display: flex;
-    align-items: center;
-}
-
 .header {
     background-color: var(--white-text-color);
     padding-top: 24px;
@@ -98,6 +85,18 @@ img {
     border-bottom: 1px solid #ECECEC;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-align {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     color: var(--accent-text-color);
