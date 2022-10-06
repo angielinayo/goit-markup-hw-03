@@ -81,8 +81,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /*=============================HEADER==================================*/
 .nav-align {
@@ -92,7 +92,9 @@ img {
 
 .header {
     background-color: var(--white-text-color);
-
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 
@@ -307,6 +309,7 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
 }
 
 .results-info {
@@ -347,11 +350,13 @@ img {
 
     display: flex;
     flex-wrap: wrap;
+    text-decoration: none;
 }
 
 .portfolio.card {
     width: 370px;
     height: 404px;
+
 }
 /*=============================FOOTER=====================================*/
 .footer.container {
