@@ -316,16 +316,9 @@ img {
     color: var(--gen-text-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 /*=============================PORTFOLIO=====================================*/
-.portfolionav.section {
-    padding-top: 94px;
-    padding-bottom: 50px;
-}
-
-.portfolio.section {
-    padding-top: 0;
-}
 
 .borders {
     border-left: 1px solid #EEEEEE;
