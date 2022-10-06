@@ -363,7 +363,7 @@ img {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.17;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
@@ -383,10 +383,15 @@ img {
 .footer-link {
     color: #FFFFFF99;
     font-size: 14px;
+
     font-style: normal;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
+a.footer-link {
+    line-height: 1.71px;
+}
+
 .footer-link:hover,
 .footer-link:focus {
     color: #2196F399;
