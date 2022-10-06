@@ -341,15 +341,13 @@ img {
 }
 
 .borders {
-
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 20px;
-    padding-top: 20px;
-    
+    padding-top: 20px;   
 }
 
 /*=============================FOOTER=====================================*/
