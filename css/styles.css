@@ -359,9 +359,10 @@ img {
 
 }
 /*=============================FOOTER=====================================*/
-.footer.container {
-padding-top: 60px;
-padding-bottom: 60px;
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .address {
@@ -385,9 +386,6 @@ padding-bottom: 60px;
 .footer-link:hover,
 .footer-link:focus {
     color: #2196F399;
-}
-.footer {
-    background-color: #2F303A;
 }
 
 .footer-nav {
@@ -413,3 +411,4 @@ padding-bottom: 60px;
 }
 .logofooter > .accent{
     color: var(--white-text-color);
+}
